@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header background animation */
+header {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0c0c0e, #78797e);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    animation: backgroundMove 10s infinite alternate;
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Logo styling */
+.logo img {
+    position: right;
+    width: 100px;
+    height: 100px;
+}
+.logo {
+    float: right;
+}
+
+/* Contact section styling */
+#contact {
+    background-color: #736874;
+    color: white;
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    color: white;
+}
+body {
+    background-color: #8B4513; /* Brown background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#contact-form {
+    background-color: #5C4033; /* Darker brown for the form */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#contact-form h2 {
+    font-weight: bold;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn {
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    color: #5C4033;
+}
+
+#loading-indicator {
+    font-size: 1.2rem;
+}
+
+
+/* Cards hover effect */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Main Character Section */
+#main-character {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+#main-character img {
+    max-width: 200px;
+    border-radius: 50%;
+}
